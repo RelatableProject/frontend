@@ -1,6 +1,6 @@
 ﻿import React, {useRef} from 'react';
 import InstitutionSection from "./sections/InstitutionSection";
-import Section from "../Section";
+import Section from "../../Section";
 import SystemSection from "./sections/SystemSection";
 
 const ConfigurationPage = () => {

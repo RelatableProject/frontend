@@ -3,11 +3,11 @@ import Section from "../Section";
 import Form, {GroupItem, Item} from 'devextreme-react/form';
 import useCrudByGql from "../../hooks/useCrudByGql";
 import {createCustomer, deleteCustomer, getCustomersById, getCustomersByProjectId, updateCustomer} from "./querys";
-import CustomDataGrid from "../CustomDataGrid";
+import CustomDataGrid from "../graphql/CustomDataGrid";
 import {Column} from "devextreme-react/data-grid";
-import CustomColumn from "../utils/CustomColumn";
+import CustomColumn from "../graphql/CustomColumn";
 import useCrud from "../../hooks/useCrud";
-import CustomSelectBox from "../utils/CustomSelectBox";
+import CustomSelectBox from "../graphql/CustomSelectBox";
 
 
 const ProjectDetailBody = ({data}) => {

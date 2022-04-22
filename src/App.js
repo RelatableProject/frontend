@@ -5,10 +5,13 @@ import './style.css'
 
 import React from 'react';
 import AppRouter from "./routes/AppRouter";
+import {GraphProvider} from "./graphql/context/graphContext";
 
 const App = () => {
     return (
-        <AppRouter/>
+        <GraphProvider>
+            <AppRouter/>
+        </GraphProvider>
     );
 };
 

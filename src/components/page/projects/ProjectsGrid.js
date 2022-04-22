@@ -1,8 +1,8 @@
 ﻿import React from 'react';
 import useCrud from "../../hooks/useCrud";
-import CustomDataGrid from "../CustomDataGrid";
+import CustomDataGrid from "../graphql/CustomDataGrid";
 import {Column} from "devextreme-react/data-grid";
-import CustomSelectBox from "../utils/CustomSelectBox";
+import CustomSelectBox from "../graphql/CustomSelectBox";
 
 const ProjectsGrid = ({setSelectedProject}) => {
     const projectDs = useCrud('project', 'projects', {

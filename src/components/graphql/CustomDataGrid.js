@@ -2,7 +2,7 @@
 import {DataGrid} from "devextreme-react";
 import {Column} from "devextreme/ui/data_grid";
 
-interface Prop {
+export interface GridProps {
     dataSource: any;
     editingMode?: 'batch' | 'cell' | 'row' | 'form' | 'popup';
     customizeColumns?: {
@@ -13,7 +13,7 @@ interface Prop {
     reference?: any;
 }
 
-const CustomDataGrid = (props: Prop, ) => {
+const CustomDataGrid = (props: GridProps, ) => {
     const {dataSource, editingMode = "row", customizeColumns, paste, children, reference} = props;
     return (
         <DataGrid

@@ -1,9 +1,9 @@
 ﻿import React from 'react';
-import CustomDataGrid from "../CustomDataGrid";
+import CustomDataGrid from "../graphql/CustomDataGrid";
 import useCrudByGql from "../../hooks/useCrudByGql";
 import {createUser, deleteUser, loadUsers, updateUser, userByKey} from "./querys";
 import {Column} from "devextreme-react/data-grid";
-import CustomColumn from "../utils/CustomColumn";
+import CustomColumn from "../graphql/CustomColumn";
 import useCrud from "../../hooks/useCrud";
 
 const UsersGrid = () => {

@@ -1,10 +1,10 @@
 ﻿import React from 'react';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import ConfigurationPage from "../components/configuration/ConfigurationPage";
+import ConfigurationPage from "../components/page/config/ConfigurationPage";
 import Navbar from "../components/navbar/Navbar";
 import PageOverlay from "../components/PageOverlay";
-import ProjectsPage from "../components/projects/ProjectsPage";
-import UsersPage from "../components/users/UsersPage";
+import UsersPage from "../components/page/users/UsersPage";
+import ProjectsPage from "../components/page/projects/ProjectsPage";
 
 const AppRouter = () => {
     return (
